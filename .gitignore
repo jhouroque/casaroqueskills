@@ -1,0 +1,18 @@
+# Arquivos locais de trabalho e entregas
+/work/
+/outputs/
+
+# Configurações locais e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Arquivos temporários do sistema e editores
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
+*~
