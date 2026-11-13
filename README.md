@@ -8,6 +8,7 @@ Acervo coletado em 13/11/2026: **470 arquivos `SKILL.md`**, com instruções e m
 
 - [Catálogo completo](skills/CATALOGO.md)
 - [Manifesto dos arquivos e hashes SHA-256](skills/manifest.json)
+- [Habilidades locais do Claude](skills/claude/CATALOGO.md): 591 ocorrências coletadas, reunidas em 301 conjuntos distintos com arquivos de apoio. As cópias idênticas compartilham o mesmo conjunto; versões diferentes permanecem separadas.
 
 Os arquivos originais foram copiados sem edição. A coleta não instala plugins, runtimes, conectores ou contas exigidos pelas habilidades.
 
