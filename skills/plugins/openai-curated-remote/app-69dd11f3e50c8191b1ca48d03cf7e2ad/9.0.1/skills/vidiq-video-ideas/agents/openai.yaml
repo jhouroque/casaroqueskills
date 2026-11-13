@@ -1,0 +1,12 @@
+interface:
+  display_name: "vidIQ Video Ideas"
+  short_description: "Find YouTube video ideas from outlier videos"
+  default_prompt: "Use $vidiq-video-ideas to find five original ideas for my [niche] channel, with a recent breakout example and a hook for each."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "vidiq"
+      description: "Hosted creator intelligence from vidIQ"
+      transport: "streamable_http"
+      url: "https://mcp.vidiq.com/mcp"

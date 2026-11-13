@@ -1,0 +1,12 @@
+interface:
+  display_name: "vidIQ Competitor Watchlist"
+  short_description: "Find and track your YouTube competitors"
+  default_prompt: "Use $vidiq-competitor-watchlist to review the competitors I track and suggest channels to add or remove."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "vidiq"
+      description: "Creator intelligence and watchlist tools from vidIQ"
+      transport: "streamable_http"
+      url: "https://mcp.vidiq.com/mcp"

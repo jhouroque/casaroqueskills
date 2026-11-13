@@ -1,0 +1,12 @@
+interface:
+  display_name: "vidIQ Channel Audit"
+  short_description: "Audit 30–90 days of YouTube channel performance"
+  default_prompt: "Use $vidiq-channel-audit to review my channel's last 30 days, show what's working, and prioritize three improvements."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "vidiq"
+      description: "Private channel analytics from vidIQ"
+      transport: "streamable_http"
+      url: "https://mcp.vidiq.com/mcp"

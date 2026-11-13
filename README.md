@@ -4,11 +4,20 @@ Repositório destinado à organização de skills e instruções reutilizáveis 
 
 ## Estado atual
 
-Estrutura inicial de documentação e configuração do Git. Nenhuma skill foi adicionada ou validada neste repositório.
+Acervo coletado em 13/11/2026: **470 arquivos `SKILL.md`**, com instruções e materiais de apoio encontrados nas pastas locais e no cache de plugins do Codex. Origens e versões distintas foram preservadas; a contagem não representa habilidades únicas nem validação de funcionamento.
 
-## Organização sugerida
+- [Catálogo completo](skills/CATALOGO.md)
+- [Manifesto dos arquivos e hashes SHA-256](skills/manifest.json)
 
-Cada skill pode ter uma pasta própria dentro de `skills/`, contendo um arquivo `SKILL.md` com sua finalidade, instruções e exemplos. Arquivos de apoio devem ficar junto da skill correspondente.
+Os arquivos originais foram copiados sem edição. A coleta não instala plugins, runtimes, conectores ou contas exigidos pelas habilidades.
+
+## Organização
+
+- `skills/locais/codex/`: habilidades locais e de sistema do Codex.
+- `skills/locais/agents/`: habilidades compartilhadas de agentes, incluindo áreas da Casa Roque.
+- `skills/plugins/`: habilidades dos plugins, separadas por fornecedor, pacote e versão.
+
+Cada pasta mantém seus arquivos de apoio. Licenças e avisos encontrados nos pacotes de origem foram preservados; materiais de terceiros continuam sujeitos às respectivas condições.
 
 ## Como contribuir
 

@@ -1,0 +1,12 @@
+interface:
+  display_name: "vidIQ Trend Radar"
+  short_description: "Judge YouTube trends by urgency and durability"
+  default_prompt: "Use $vidiq-trend-radar to find what's trending in [niche] and tell me what to jump on now, what can wait, and what to skip."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "vidiq"
+      description: "Live creator intelligence from vidIQ"
+      transport: "streamable_http"
+      url: "https://mcp.vidiq.com/mcp"

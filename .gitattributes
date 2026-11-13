@@ -3,3 +3,6 @@
 *.md text eol=lf
 .gitignore text eol=lf
 .gitattributes text eol=lf
+
+# Preservar os bytes dos arquivos importados, conforme o manifesto SHA-256
+skills/** -text

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Cotações e licitações CasaRoque"
+  short_description: "Fornecedores, custos e propostas com frete embutido"
+  default_prompt: "Use $licitacoes-cotacao-roque para conferir a solicitação e preparar uma cotação com fornecedores compatíveis, custo entregue e margem verificada."
+policy:
+  allow_implicit_invocation: true
